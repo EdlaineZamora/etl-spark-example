@@ -1,0 +1,9 @@
+order_id,account_id,item_id,status,note,reservation_timestamp,item_description,item_name,item_price,item_type
+11,8,7,NEW,"",2013-03-28 12:19:10.021,"If you're looking to develop your in-line skills or simply want to roll over any obstacle with ease, then this economically priced, 29er frame will keep you riding with speed and control.",2011 Access XCL 9er,179.99,FRAME
+14,6,12,NEW,"",2013-03-28 12:20:19.721,Replacement alloy derailleur hanger for Access XCL frames. ,Derailleur Hanger for Access XCL and XCL 29er Frames,10.00,ACCESSORIES
+13,6,6,NEW,"",2013-03-27 09:20:14.127,Fuji's Altamira CX 1.0 cyclocross frameset is the perfect platform for building up the cross bike of your dreams.,Fuji Altamira CX 1.0 Cyclocross,2599.99,FRAME
+15,6,11,NEW,"",2013-03-22 16:02:22.875,Shimano's successful introduction of Di2 digital electronic shifting in its Dura-Ace group heralded a new era of shifting performance for the early adopters who jumped in with both feet.,Shimano Ultegra Di2 Upgrade Kit,1299.99,ACCESSORIES
+12,8,13,PAID,"",2013-03-20 08:11:21.983,Frame protection at its best! Small: Standard Large: Jumbo ,Lizard Skins Chainstay Guard,7.99,ACCESSORIES
+18,7,9,READY_FOR_SHIPMENT,"",2013-03-19 22:21:28.171,"If you're looking to develop your in-line skills or simply want to roll over any obstacle with ease, then this economically priced, 29er frame will keep you riding with speed and control.",2011 Access XCL 9er,179.99,FRAME
+17,7,8,IN_PROGRESS,"",2013-03-28 12:21:24.155,"If you crave simplicity in your cycling life -- but like to express your individuality -- building up your own, customized single-speed road bike could well be the answer. And the Ascent single-speed road bike frame is a great place to start.",Ascent Single-Speed Road Bike,89.99,FRAME
+16,6,13,NEW,"",2013-03-26 20:14:25.336,Frame protection at its best! Small: Standard Large: Jumbo ,Lizard Skins Chainstay Guard,7.99,ACCESSORIES
