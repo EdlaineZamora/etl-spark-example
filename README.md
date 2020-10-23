@@ -6,7 +6,7 @@ Simple example of ETL (Extract, Transform and Load) using Spark, SparkSQL and Py
 
 ### Install Apache Spark
 ------------------------
-Update brew formulae first, then install [Scala](http://www.scala-lang.org/) and Spark.
+Update brew first, then install [Scala](http://www.scala-lang.org/) and Spark.
 
 ```shell
 brew upgrade && brew update
