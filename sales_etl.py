@@ -4,21 +4,21 @@ from pyspark.sql import SQLContext
 if __name__ == '__main__':
     scSpark = SparkSession \
         .builder \
-        .appName("reading csv") \
+        .appName("Reading csv files") \
         .getOrCreate()
 
-data_file = '/Users/edlainezamora/dev/twu/data/spark/data*.csv'
+data_file = './data-set/data*.csv'
 
-print('Extract Part of the ETL')
+print('ETL (Extract Part)')
 sdfData = scSpark.read.csv(data_file, header=True, sep=",").cache()
 print('Total Records = {}'.format(sdfData.count()))
 sdfData.show()
 
-print('Transform Part of the ETL - Sales Amount by Item Type')
+print('ETL (Transform Part) - Aggregating Sales Amount by Item Type')
 sdfData.registerTempTable("sales")
 salesByItemType = scSpark.sql('SELECT item_type, SUM(item_price) AS total FROM sales group by item_type;')
 salesByItemType.show()
 
-print('Load Part of the ETL')
+print('ETL (Load Part)')
 salesByItemType.coalesce(1).write.format('csv').save('sales_amout_by_item_type.csv')
-print('sales_amout_by_item_type.csv created')
+print('sales_amout_by_item_type.csv generated')

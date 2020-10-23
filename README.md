@@ -48,5 +48,5 @@ export PATH=/usr/local/Cellar/apache-spark/3.0.1/bin:$PATH
 Execute the following command in your terminal
 
 ```shell
-python3 orders_transformation.py 
+python3 sales_etl.py
 ```
